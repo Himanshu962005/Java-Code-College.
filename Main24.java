@@ -5,7 +5,8 @@ class Super {
         this.x = x;
     }
 
-    void display() {
+    void display() // Method Defined.
+    {
         System.out.println("Super x = " + x);
     }
 }
@@ -18,7 +19,8 @@ class Sub extends Super {
         this.y = y;
     }
 
-    void display() {
+    void display() // Method Defined Again.
+    {
         System.out.println("Super x = " + x);
         System.out.println("Sub y = " + y);
     }
