@@ -26,7 +26,7 @@ class Main32 {
         }
         float value = loan(principalAmount.floatValue(), interestRate.floatValue(), numYears);
         printline();
-        System.out.println("Final Value = " + value);
+        System.out.println(" Final Value = " + String.format("%.2f", value));
         printline();
     }
 
@@ -48,4 +48,5 @@ class Main32 {
         }
         System.out.println(" ");
     }
+
 }
