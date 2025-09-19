@@ -48,5 +48,4 @@ class Main32 {
         }
         System.out.println(" ");
     }
-
 }
