@@ -2,7 +2,7 @@ class Main27 {
     public static void main(String[] args) {
         int number[] = { 55, 40, 80, 65, 71 };
         int n = number.length; // Array Length.
-        System.out.print("Given list :");
+        System.out.print("Given list : ");
         for (int i = 0; i < n; i++) {
             System.out.print(" " + number[i]);
         }
@@ -19,7 +19,7 @@ class Main27 {
             }
         }
         // Sorting Ends.
-        System.out.print("Sorted list :");
+        System.out.print("Sorted list : ");
         for (int i = 0; i < n; i++) {
             System.out.print(" " + number[i]);
         }
