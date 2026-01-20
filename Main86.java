@@ -3,7 +3,7 @@ Income Slab        Tax
 2.5L - 5.0L        5%
 5.0L - 10.0L       20%
 Above 10.0L        30%
-*/
+Note that there is no tax below 2.5L. Take input amount as an input form the user. */
 
 import java.util.Scanner;
 
